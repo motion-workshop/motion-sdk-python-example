@@ -1,5 +1,11 @@
 # Motion SDK Python Example
 
+Stream measurement and motion data from the Shadow. Print out the data in
+CSV format.
+
+Each sample in time is one row. Each column is one channel from one device
+or joint in the Shadow skeleton.
+
 ## Run the example
 
 By default, the example application will read as many samples as possible and
